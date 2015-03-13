@@ -1,0 +1,85 @@
+
+
+/* -------------------------------------------
+Filename: Jabari Portfolio
+Title: Portfolio
+Author: Jabari Augustin
+/*
+/* ----------- Previous website */
+
+/* ----------- RESET DEFAULT SETTINGS */
+
+/* -------------------------------------------
+					LAYOUT
+---------------------------------------------*/
+body {
+background-color: #ffffff; /* Gray Background*/
+
+}
+#container {
+	width: 100%;
+	background-color: #ffffff;
+	background-repeat: repeat-y; 
+}
+
+#header {
+	width:751px;
+	height: 935px;
+	position:fixed;
+	top:0;
+	left:50%;
+	margin-left: -400px;
+	background: url(../img/oz1.png) no-repeat;
+
+}
+
+#content {
+	padding: 210px 0 0 376px;
+}
+p{
+	position: relative;
+	left: -34px;
+	top: 110px;
+	
+}
+
+.modalDialog {
+	position: fixed;
+	font-family: Helvetica, Helvetica, sans-serif;
+	font-weight: bold;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background: rgba(0,0,0,0.8);
+	z-index: 99999;
+	opacity:0;
+	-webkit-transition: opacity 400ms ease-in;
+	-moz-transition: opacity 400ms ease-in;
+	transition: opacity 400ms ease-in;
+	pointer-events: none;
+}
+
+.modalDialog:target {
+	opacity:1;
+	pointer-events: auto;
+}
+
+.modalDialog > div {
+	width: 720px;
+	position: relative;
+	margin: 10% auto;
+	padding: 5px 20px 13px 20px;
+	border-radius: 1px;
+	background: #fff;
+	background: #106687;
+	background: -webkit-linear-gradient(#fff, #999);
+	background: -o-linear-gradient(#fff, #999);
+}
+
+iframe { border: 3px #d3d3d3 solid; }
+
+a:link {
+    color: #ffffff;
+}
+
